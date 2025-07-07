@@ -11,9 +11,6 @@ def reverse_e(c, keys):
     left = c[:8]
     right = c[8:]
     # 키를 역순으로 사용하여 XOR 연산을 수행
-    
-    "success"
-    
     for key in reversed(keys):
         key_left = key[:8]
         key_right = key[8:]
